@@ -1,4 +1,4 @@
-## Source Code of My Blog Site.
+## Source Code of My Blog.
 
 blog site: [Hmcc Blog | 话梅博客](http://hmcc.me)
 
@@ -7,9 +7,9 @@ blog site: [Hmcc Blog | 话梅博客](http://hmcc.me)
 
 *The Template* 
 
-*forked from [cnfeat](cnfeat.com)*
+*forked from [cnfeat](https://github.com/cnfeat/blog.io)*
 
-*forked from [Azeril](http://azeril.me/)*
+*forked from [Azeril](https://github.com/Azeril/azeril.github.io)*
  
 *Thanks！*
 
