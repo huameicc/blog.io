@@ -1,10 +1,13 @@
 ---
-category: java
-published: true
 layout: post
+categories: blog
+published: true
 title: "Hmcc Blog" established!
+date: 2017-06-10
+tags: [Blog Test]
 description: jekyll + GitHub Pages + markdown
 ---
+
 
 ##  Hmcc Blog
 Hello, Welcome to my blog.
