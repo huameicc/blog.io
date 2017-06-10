@@ -4,11 +4,11 @@ header-img: "img/green.jpg"
 tagline: "cn"  
 description: "Hmcc|Me"  
 baseurl: ""
-url: "http://cnfeat"  
+url: "http://blog.hmcc.me"  
 
 # About/contact
 owner: 
-  name: " Hmcc"
+  name: "Hmcc"
   email: hmccme@126.com
   bio: "厚积薄发，不动如山"
 
