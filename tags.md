@@ -5,15 +5,9 @@ description: "标签"
 header-img: "img/semantic.jpg"
 ---
 
-##本页使用方法
+## 全部标签
 
-1. 在下面选一个你喜欢的词
-2. 点击它
-3. 相关的文章会「唰」地一声跳到页面顶端
-4. 马上试试？
-
-##基因列表
-
+----
 
 <div id='tag_cloud'>
 {% for tag in site.tags %}
@@ -21,9 +15,11 @@ header-img: "img/semantic.jpg"
 {% endfor %}
 </div>
 
+----
+
 <ul class="listing">
 {% for tag in site.tags %}
-  <li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
+  <li class="listing-seperator" id="{{ tag[0] }}">**{{ tag[0] }}**</li>
 {% for post in tag[1] %}
   <li class="listing-item">
   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
