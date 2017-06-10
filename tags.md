@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Tags"
-description: "标签"  
-header-img: "img/semantic.jpg"  
+description: "标签"
+header-img: "img/semantic.jpg"
 ---
 
 ##本页使用方法
