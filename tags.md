@@ -5,7 +5,6 @@ description: "标签"  
 header-img: "img/semantic.jpg"  
 ---
 
-----
 
 <div id='tag_cloud'>
 {% for tag in site.tags %}
@@ -13,7 +12,6 @@ header-img: "img/semantic.jpg"
 {% endfor %}
 </div>
 
-----
 
 <ul class="listing">
 {% for tag in site.tags %}
