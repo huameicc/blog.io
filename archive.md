@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Archive"
-description: "你看到的，是我练习千字文的所有文章"
+title: "TimeLine"
+description: "时间轴"
 header-img: "img/orange.jpg"
 ---
 
