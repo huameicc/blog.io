@@ -1,13 +1,11 @@
 ---
 layout: page
 title: "Tags"
-description: "标签"
+description: "标签库"
 header-img: "img/semantic.jpg"
 ---
 
-## 全部标签
-
-----
+## 标签
 
 <div id='tag_cloud'>
 {% for tag in site.tags %}
@@ -15,11 +13,9 @@ header-img: "img/semantic.jpg"
 {% endfor %}
 </div>
 
-----
-
 <ul class="listing">
 {% for tag in site.tags %}
-  <li class="listing-seperator" id="{{ tag[0] }}">**{{ tag[0] }}**</li>
+  <li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
 {% for post in tag[1] %}
   <li class="listing-item">
   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
