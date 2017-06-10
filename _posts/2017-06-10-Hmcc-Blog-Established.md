@@ -4,7 +4,7 @@ title: Welcome To Hmcc Blog
 date: 2017-06-10
 categories: blog
 tags: [Blog,Test]
-description: Technology: jekyll + GitHub Pages + markdown, Template: Fork from cnfeat.
+description: Technology:jekyll + GitHub Pages + markdown, Template:Fork from cnfeat.
 ---
 
 
