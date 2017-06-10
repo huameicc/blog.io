@@ -1,6 +1,7 @@
 ---
 layout: page
-description: "HuaMeicc"
+title: Hmcc Blog
+description: "huameicc"
 ---
 
 {% for post in paginator.posts %}
@@ -29,12 +30,12 @@ description: "HuaMeicc"
 <ul class="pager">
     {% if paginator.previous_page %}
     <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Prev</a>
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Prev Page</a>
     </li>
     {% endif %}
     {% if paginator.next_page %}
     <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &rarr;</a>
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next Page &rarr;</a>
     </li>
     {% endif %}
 </ul>
