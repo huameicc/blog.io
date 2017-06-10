@@ -1,6 +1,6 @@
-# Hmcc Blog  Source Code.
+# Source Code of My Blog Site.
 
-
+blog site: [Hmcc Blog](http://blog.hmcc.me)
 
 
 ## Note
