@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 欢迎来到我的博客
+title: Welcome To Hmcc Blog
 date: 2017-06-10
 categories: blog
-tags: [Blog Test]
+tags: [Blog,Test]
 description: jekyll + GitHub Pages + markdown
 ---
 
