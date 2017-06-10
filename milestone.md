@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "favorite"
+title: "Favorite"
 description: "收藏"
 header-img: "img/zhihu.jpg"
 ---
