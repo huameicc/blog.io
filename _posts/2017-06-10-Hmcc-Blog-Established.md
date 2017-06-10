@@ -16,7 +16,7 @@ Hello, Welcome to my blog.
 
 ![lily.jpg](images/cover_1.jpg)
 
-----
+
 
 ##  相关链接
-**[博客源码]**(https://github.com/huameicc/blog.io)
+**[博客源码](https://github.com/huameicc/blog.io)**
