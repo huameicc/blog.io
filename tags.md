@@ -5,7 +5,7 @@ description: "标签"  
 header-img: "img/semantic.jpg"  
 ---
 
-## 点击标签可跳转
+----
 
 <div id='tag_cloud'>
 {% for tag in site.tags %}
