@@ -22,7 +22,7 @@ layout: default
                     {% if page.subtitle %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
-                    <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+                    <span class="meta">{{ page.date | date: "%b %d, %Y" }}</span>
                 </div>
             </div>
         </div>
@@ -156,7 +156,7 @@ var duoshuoQuery = {short_name:"cnfeat"};
 </style>-->
 
 <!--添加目录-->
-<script>
+<script type="text/javascript">
 	function CreatePostNavigator(){
 		// 目录标题的div
 		var navigatorTitleDiv = '<div id="navigatorTitleDiv">隐藏目录</div>';
@@ -208,7 +208,7 @@ var duoshuoQuery = {short_name:"cnfeat"};
 	right:304px;
 	font-weight:bold;
 	cursor:pointer;
-	background-color: antiquewhite;
+	background-color: #c0c0c0;
 }
 #navigatorDiv 
 {
@@ -218,6 +218,6 @@ var duoshuoQuery = {short_name:"cnfeat"};
 	position: fixed;
 	top:240px; 
 	right:300px;
-	background-color: antiquewhite;
+	background-color: #c0c0c0;
 }
 </style>
