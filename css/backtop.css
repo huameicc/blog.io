@@ -1,18 +1,18 @@
 /*  Back Top Button  */
 #back-top {
   position: fixed;
-  bottom: 30px;
-  margin-left: 1040px;
+  bottom: 20px;
+  margin-left: 5px;
 }
 #back-top a {
-  width: 54px;
-  height: 54px;
+  width: 40px;
+  height: 40px;
   display: block;
   background: #ddd url(/img/Back-Top_Arrow.png) no-repeat center center;
   background-color: #aaa;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  border-radius: 7px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
   -webkit-transition: 1s;
   -moz-transition: 1s;
   transition: 1s;
