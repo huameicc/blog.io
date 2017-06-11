@@ -4,10 +4,13 @@ title: "Tags"
 description: "标签库"
 header-img: "img/semantic.jpg"
 ---
+<center>
+    <p><img src="/img/110x.jpg" align="center"></p>
+</center>
 
 <div id='tag_cloud'>
 {% for tag in site.tags %}
-<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}&emsp;</a>
+<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>&emsp;
 {% endfor %}
 </div>
 

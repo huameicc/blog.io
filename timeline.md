@@ -5,6 +5,9 @@ description: "时间轴"
 header-img: "img/orange.jpg"
 ---
 
+<center>
+    <p><img src="/img/110x.jpg" align="center"></p>
+</center>
 
 <ul class="listing">
 {% for post in site.posts %}
