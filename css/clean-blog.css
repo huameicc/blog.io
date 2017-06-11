@@ -525,3 +525,17 @@ body {
   background-color: #ddd;
 }
 
+
+/*tags & timeline*/
+.listing-seperator{
+  list-style-type: none;
+  line-height : 200%;
+  font-weight : bold;
+  font-size : 30px;
+}
+  
+.listing-item{
+  list-style-type: none;
+}
+
+
