@@ -526,21 +526,7 @@ body {
 }
 
 
-/*tags & timeline*/
-.listing-seperator{
-  list-style-type: none;
-  line-height : 200%;
-  font-weight : bold;
-  font-size : 30px;
-}
-  
-.listing-item{
-  list-style-type: none;
-}
 
-.tag_cloud{
-	font-size: 22px;
-}
 
 
 
