@@ -2,7 +2,7 @@
 layout: page
 title: "Favorite"
 description: "收藏"
-header-img: "img/zhihu.jpg"
+header-img: "img/facebook.jpg"
 ---
 
 <center>
