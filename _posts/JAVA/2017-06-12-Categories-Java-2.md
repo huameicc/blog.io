@@ -16,7 +16,8 @@ Hello, Welcome to my blog.
 \`号包围的内容显示为行内代码
 `String str = "";`
 
-4个空格或一个Tab可以显示多行代码，每行都要有
+4个空格或一个Tab可以显示多行代码，每行都要有；且第一行前要空一行
+
 	//
 	String descrp = "Hello Java";
 	String descrp-son = descrp.toUpperrCase();
