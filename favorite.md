@@ -4,7 +4,6 @@ title: "Favorite"
 description: "收藏"
 header-img: "img/facebook.jpg"
 ---
-
 <center>
     <p><img src="/img/110x.jpg" align="center"></p>
 </center>
