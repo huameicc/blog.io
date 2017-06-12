@@ -26,6 +26,8 @@ java
 	String descrp = "Hello Java";
 	String descrp-son = descrp.toUpperrCase();
 python
+
+	date;
 {% highlight python %}
 ### 创建 sc
 try:
