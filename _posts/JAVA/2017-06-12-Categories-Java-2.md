@@ -16,18 +16,17 @@ Hello, Welcome to my blog.
 \`号包围的内容显示为行内代码
 `String str = "";`
 
-4个空格或一个Tab可以显示多行代码，每行都要有；且第一行前要空一行
+4个空格或一个Tab可以显示为代码模式，每行都要有缩进，且首行前要空一行.  
+java
 
-	//
 	String descrp = "Hello Java";
 	String descrp-son = descrp.toUpperrCase();
 			
 	//第二段
 	String descrp = "Hello Java";
 	String descrp-son = descrp.toUpperrCase();
-
+python
 {% highlight python %}
-
 ### 创建 sc
 try:
     sc.stop()
@@ -40,7 +39,6 @@ url = 'hdfs://10.21.208.21:8020/user/mercury/minute_bar'
 rdd_mkt_data = sc.wholeTextFiles(url, minPartitions=80) \
                  .setName('index_minute_bar') \
                  .cache()
-
 {% endhighlight %}
 
 
