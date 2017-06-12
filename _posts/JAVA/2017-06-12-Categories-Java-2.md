@@ -16,7 +16,7 @@ Hello, Welcome to my blog.
 \`号包围的内容显示为行内代码
 `String str = "";`
 
-4个空格或一个Tab可以显示为代码模式，每行都要有缩进，且首行前要空一行.  
+4个空格或一个Tab可以显示为代码模式，每行都要有缩进，且首行前要空一行.  
 java
 
 	String descrp = "Hello Java";
