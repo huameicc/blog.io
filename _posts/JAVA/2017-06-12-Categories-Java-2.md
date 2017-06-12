@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Java First
+title: Java Two
 date: 2017-06-12
+categories: Java
 tags: [Java,Test]
 description: java note.
 ---
@@ -19,8 +20,8 @@ Hello, Welcome to my blog.
 	String descrp-son = descrp.toUpperrCase();
 </code>
 
-	`String descrp = "Hello Java";
-	String descrp-son = descrp.toUpperrCase();`
+`String descrp = "Hello Java";
+String descrp-son = descrp.toUpperrCase();`
 
 {% highlight python %}
 

@@ -16,11 +16,14 @@ Hello, Welcome to my blog.
 `String str = "";`
 	
 <code>
+    /**定义变量*/
 	String descrp = "Hello Java";
+	
+	/**转换大写*/
 	String descrp-son = descrp.toUpperrCase();
 </code>
 
-	`String descrp = "Hello Java";
+`String descrp = "Hello Java";
 	String descrp-son = descrp.toUpperrCase();`
 
 {% highlight python %}
@@ -41,6 +44,3 @@ rdd_mkt_data = sc.wholeTextFiles(url, minPartitions=80) \
 {% endhighlight %}
 
 
-
-##  相关链接
-**[GitHub](https://github.com/huameicc)**
