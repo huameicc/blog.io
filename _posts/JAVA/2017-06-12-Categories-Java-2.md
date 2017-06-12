@@ -13,15 +13,17 @@ Hello, Welcome to my blog.
 
 这个帖子是我的第一个帖子，我会在这里进行一些简单的测试，仅仅是为了熟悉一些相关的内容，并对一些功能进行调试和优化，访客无需在意。这一次，我想看看代码高亮和分目录。
 
+\`号包围的内容显示为行内代码
 `String str = "";`
-	
-<code>
+
+4个空格或一个Tab可以显示多行代码，每行都要有
+	//
 	String descrp = "Hello Java";
 	String descrp-son = descrp.toUpperrCase();
-</code>
-
-`String descrp = "Hello Java";
-String descrp-son = descrp.toUpperrCase();`
+			
+	//第二段
+	String descrp = "Hello Java";
+	String descrp-son = descrp.toUpperrCase();
 
 {% highlight python %}
 
