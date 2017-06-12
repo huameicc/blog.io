@@ -2,6 +2,7 @@
 layout: post
 title: Java First
 date: 2017-06-12
+catagories: Java
 tags: [Java,Test]
 description: java note.
 ---
