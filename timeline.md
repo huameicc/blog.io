@@ -2,7 +2,7 @@
 layout: page
 title: "TimeLine"
 description: "时间轴"
-header-img: "img/orange.jpg"
+header-img: "img/timeline.jpg"
 ---
 
 <ul class="listing">
