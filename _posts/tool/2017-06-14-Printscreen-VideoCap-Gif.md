@@ -2,7 +2,7 @@
 layout: post
 title: 屏幕录制和Gif制作
 date: 2017-06-14
-catelogies: Tool
+categories: Tool
 tags: Video	Image Tool
 description: 关于录制视频，Gif截取，Gif编辑
 ---
