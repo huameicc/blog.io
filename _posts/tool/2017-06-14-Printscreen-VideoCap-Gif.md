@@ -9,13 +9,13 @@ description: 关于录制视频，Gif截取，Gif编辑
 
 ## 软件
 
-1. [ShareX](https://getsharex.com/) 
+### 1. [ShareX](https://getsharex.com/) 
 
 介绍：Screen capture, file sharing and productivity tool.这是一个Github开源项目，<https://github.com/ShareX/ShareX>
 
 这个软件可用来抓取GIF，录制视频，但它的功能远不止于此。
 
-2. Ulead Gif Animator
+### 2. Ulead Gif Animator
 
 这是一个Gif制作软件，可以导入AVI\图像，然后进行编辑，可以很好的对GIF进行优化。分辨率、大小等。
 
