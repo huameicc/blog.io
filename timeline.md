@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "TimeLine"
+title: "All"
 description: "时间轴"
 header-img: "img/timeline.jpg"
 ---
