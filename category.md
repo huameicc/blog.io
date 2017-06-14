@@ -1,20 +1,20 @@
 ---
 layout: page
-title: "Tags"
-description: "文章标签"
-header-img: "img/semantic.jpg"
+title: "Category"
+description: "文章分类"
+header-img: "img/facebook.jpg"
 ---
 
-<div id='tag_cloud'>
-{% for tag in site.tags %}
-<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>&emsp;
+<div id='category_cloud'>
+{% for category in site.categories %}
+<a href="#{{ category[0] }}" title="{{ category[0] }}" rel="{{ category[1].size }}">{{ category[0] }}</a><br/>
 {% endfor %}
 </div>
 
 <ul class="listing">
-{% for tag in site.tags %}
-  <li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
-{% for post in tag[1] %}
+{% for category in site.categories %}
+  <li class="listing-seperator" id="{{ category[0] }}">{{ category[0] }}</li>
+{% for post in category[1] %}
   <li class="listing-item">
   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>&emsp;&emsp;
   <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
@@ -23,6 +23,7 @@ header-img: "img/semantic.jpg"
 {% endfor %}
 </ul>
 
+<!-- categories 和 tags 功能相似 -->
 <script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script> 
 <script language="javascript">
 $.fn.tagcloud.defaults = {
@@ -31,7 +32,7 @@ $.fn.tagcloud.defaults = {
 };
 
 $(function () {
-    $('#tag_cloud a').tagcloud();
+    $('#category_cloud a').tagcloud();
 });
 </script>
 
@@ -47,7 +48,7 @@ $(function () {
   list-style-type: none;
 }
 
-#tag_cloud{
+#category_cloud{
 	font-size: 22px;
 }
 </style>

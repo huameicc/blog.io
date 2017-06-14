@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Favorite"
+title:
 description: "收藏"
 header-img: "img/facebook.jpg"
 ---
