@@ -27,7 +27,7 @@ header-img: "img/green.jpg"
 本站点制作主要参考了cnfeat的文章[《如何搭建一个独立博客——简明Github Pages与Hexo教程》](http://www.cnfeat.com/blog/2014/05/10/how-to-build-a-blog/)，特此致谢！
 
 ### 友链：
-
+- [Jerry Qu](https://imququ.com/)   专注 WEB 端开发
 - [cnfeat](http://www.cnfeat.com/)
 - [元认知](http://www.mesule.com/)
 - [阳志平](http://www.yangzhiping.com/)
