@@ -96,26 +96,25 @@ Commit到本地仓库
 	$ git log --oneline --graph
 	
 ## 分支
-查看分支
-
+	# 查看分支
 	$ git branch
-创建分支
-
+	
+	# 创建分支
 	$ git branch 分支名
-切换分支
-
+	
+	# 切换分支
 	$ git checkout 分支名
-创建并切换分支
-
+	
+	# 创建并切换分支
 	$ git checkout -b 分支名
-删除分支
 
+	# 删除分支
 	$ git branch -D 分支名
-重命名分支
 
+	# 重命名分支
 	$ git branch -m 分支名 新分支名
-合并分支到当前分支
 
+	# 合并分支到当前分支
 	$ git merge 待合并分支名
 	
 ##其他
