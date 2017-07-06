@@ -153,14 +153,14 @@ A backtick-delimited string in a code span: `` `foo` ``
 
 #### 图片
 
-行内式： 
+行内式：
+
+	![Alt text](/path/to/img.jpg)
+	![Alt text](/path/to/img.jpg "Optional title")
 
 * 一个惊叹号 !
 * 接着一个方括号，里面放上图片的替代文字
 * 接着一个普通括号，里面放上图片的网址，还可以选择用双引号添加title.
-
-	![Alt text](/path/to/img.jpg)
-	![Alt text](/path/to/img.jpg "Optional title")
 
 参考式：与链接参考式类似
 
@@ -170,6 +170,7 @@ A backtick-delimited string in a code span: `` `foo` ``
 ### 反斜杠
 
 Markdown 支持以下特殊符号前面加上反斜杠，来表示对应的普通文本：
+
 	\   反斜线
 	`   反引号
 	*   星号
