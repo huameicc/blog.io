@@ -11,7 +11,7 @@ header-img: "img/green.jpg"
 
 ### 声明
 
-这是一个私人博客站点，基于 Jkeyll, GitHub Pages, Markdown 实现。建立于 2017 年 06 月 10 号，目前作为一个 GitHub 项目，由 huameicc 进行维持。
+这是一个私人博客站点，基于 Jkeyll, GitHub Pages, Markdown 实现，使用了开源博客模版。建立于 2017 年 06 月 10 号，目前作为一个 GitHub 项目，由 huameicc 进行维持。
 
 ### 联系
 
@@ -21,10 +21,6 @@ header-img: "img/green.jpg"
 
 - 微信
 <center><p><img src="/img/wechat.jpg" align="center"></p></center>
-
-### 致谢
-
-本站点制作主要参考了cnfeat的文章[《如何搭建一个独立博客——简明Github Pages与Hexo教程》](http://www.cnfeat.com/blog/2014/05/10/how-to-build-a-blog/)，特此致谢！
 
 ### 友链：
 - [Jerry Qu](https://imququ.com/)   专注 WEB 端开发
