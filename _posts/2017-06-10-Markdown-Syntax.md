@@ -112,33 +112,6 @@ A backtick-delimited string in a code span: `` `foo` ``
 
 ### 区段元素
 
-#### 链接
-
-1. 行内式：方块括号标记链接文字，后面紧接着圆括号插入网址链接，【链接后面还可以跟着用双引号设置链接title】
-
-	`[jekyll官网](http://jekyllrb.com/)`
-
-[jekyll官网](http://jekyllrb.com/)
-
-2. 参考式：用两个方块括号，第二个方块括号里添加链接标记【可以为空，这样第一个括号里的链接文字会被当成标记】；
-并在其他任意地方，定义链接标记具体链接，一个方括号添加标记，跟着一个冒号，接着具体链接。
-
-	`[jekyll官网][link00]`
-	
-	`[link00]: http://jekyllrb.com/`
-
-[jekyll官网][link00]
-
-[link00]: http://jekyllrb.com/
-
-3. 自动链接：直接用一对尖括号将链接包起来
-
-	`<http://example.com/>`
-	`<address@example.com>`
-	
-<http://example.com/>
-<address@example.com>
-
 #### 强调
 
 星号（*）或下划线（_）作为强调符号，被强调文字两边要有相同数量的星号。一个表示斜体 em,两个表示加粗 strong.
@@ -150,9 +123,37 @@ A backtick-delimited string in a code span: `` `foo` ``
 *em*  
 **strong**
 
+#### 链接
+
+行内式： 方块括号标记链接文字，后面紧接着圆括号插入网址链接，【链接后面还可以跟着用双引号设置链接title】
+
+	[jekyll官网](http://jekyllrb.com/)
+
+[jekyll官网](http://jekyllrb.com/)
+
+参考式： 用两个方块括号，第二个方块括号里添加链接标记【可以为空，这样第一个括号里的链接文字会被当成标记】；
+并在其他任意地方，定义链接标记具体链接，一个方括号添加标记，跟着一个冒号，接着具体链接。
+
+	[jekyll官网][link00]
+	
+	[link00]: http://jekyllrb.com/
+
+[jekyll官网][link00]
+
+[link00]: http://jekyllrb.com/
+
+自动链接： 直接用一对尖括号将链接包起来
+
+	<http://example.com/>
+	<address@example.com>
+	
+<http://example.com/>
+
+<address@example.com>
+
 #### 图片
 
-1. 行内式：
+行内式： 
 
 * 一个惊叹号 !
 * 接着一个方括号，里面放上图片的替代文字
@@ -161,7 +162,7 @@ A backtick-delimited string in a code span: `` `foo` ``
 	![Alt text](/path/to/img.jpg)
 	![Alt text](/path/to/img.jpg "Optional title")
 
-2. 参考式：与链接参考式类似
+参考式：与链接参考式类似
 
 	![Alt text][id]
 	[id]: url/to/image  "Optional title attribute"
