@@ -36,14 +36,14 @@ second line
 	> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
 	consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
 	Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-	>
+	
 	> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
 	id sem consectetuer libero luctus adipiscing.
 
 > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
 consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
 Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
->
+
 > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
 id sem consectetuer libero luctus adipiscing.
 
@@ -54,6 +54,7 @@ id sem consectetuer libero luctus adipiscing.
 	*   Red
 	*   Green
 	*   Blue	
+
 *   Red
 *   Green
 *   Blue
@@ -63,6 +64,7 @@ id sem consectetuer libero luctus adipiscing.
 	1. A
 	2. B
 	3. C
+
 1. A
 2. B
 3. C
@@ -75,7 +77,7 @@ id sem consectetuer libero luctus adipiscing.
 
 ### 代码区块
 
-每行缩进 4 个空格或是 1 个制表符，多余的空格或制表符会被保留，首行前应留空一行。代码区块里Markdown语法通常都会无效，因而代码可以随意使用符号。
+每行缩进 4 个空格或是 1 个制表符，多余的空格或制表符会被保留，代码块上下最好留空一行。代码区块里Markdown语法通常都会无效，因而代码可以随意使用符号。
 
 	<div class="footer">
 		&copy; 2004 Foo Corporation
